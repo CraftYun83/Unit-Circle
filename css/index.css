@@ -1,0 +1,124 @@
+body {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div#line {
+    position: absolute;
+    border-width: 2px;
+    width: 19.8vw;
+    height: 0.1px;
+    border-style: solid;
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 0% 0%;
+    margin-left: 20vw;
+    margin-top: 0.3vh;
+}
+
+div.x-axis {
+    position: absolute;
+    border-width: 2px;
+    width: 40vw;
+    height: 0.1px;
+    background-color: black;
+    border-style: solid;
+}
+
+div.y-axis {
+    position: absolute;
+    border-width: 2px;
+    height: 40vw;
+    width: 0.1px;
+    background-color: black;
+    border-style: solid;
+}
+
+p.axis-point {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+p#x-1 {
+    position: absolute;
+    margin-left: 42vw;
+}
+p#x-2 {
+    position: absolute;
+    margin-right: 42vw;
+}
+
+p#y-1 {
+    position: absolute;
+    margin-top: 44vw;
+}
+p#y-2 {
+    position: absolute;
+    margin-bottom: 44vw;
+}
+
+div.unit-circle {
+    width: 40vw;
+    height: 40vw;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50%;
+}
+
+div.sector {
+    position: absolute;
+    transform: scaleY(-1) rotate(90deg);
+}
+
+div.zero-point {
+    position: absolute;
+    width: 0.3vw;
+    height: 0.3vw;
+    border-style: solid;
+    background-color: black;
+    border-width: 4px;
+    border-radius: 50%;
+}
+
+p#theta {
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+}
+
+p#radians {
+    position: absolute;
+    top: 3vh;
+    right: 5vw;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+}
+
+p#sin {
+    position: absolute;
+    top: 6vh;
+    right: 5vw;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+}
+
+p#cos {
+    position: absolute;
+    top: 9vh;
+    right: 5vw;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+}
+
+p#tan {
+    position: absolute;
+    top: 12vh;
+    right: 5vw;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+}
